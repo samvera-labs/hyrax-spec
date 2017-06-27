@@ -6,3 +6,4 @@ Style/FileName:
   Exclude:
     - '*.gemspec'
     - 'Gemfile*'
+    - 'Guardfile*'
