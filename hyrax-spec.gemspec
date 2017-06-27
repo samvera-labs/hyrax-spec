@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   These are some tests for Hyrax.
 EOF
 
-  spec.homepage      = 'http://github.com/no-reply/hyrax-spec'
+  spec.homepage      = 'http://github.com/curationexperts/hyrax-spec'
 
   spec.files         = `git ls-files`.split($OUTPUT_RECORD_SEPARATOR)
   spec.executables   = spec.files.grep(%r{^bin/}).map { |f| File.basename(f) }
