@@ -24,4 +24,5 @@ EOF
   spec.add_dependency 'rspec', '~> 3.1'
 
   spec.add_development_dependency 'bixby', '~> 0.2.1'
+  spec.add_development_dependency 'rake'
 end
