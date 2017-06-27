@@ -5,6 +5,6 @@ Shared examples and smoke tests for [Hyrax](https://github.com/samvera/hyrax) ap
 
 ## License
 
-`Hyrax::Spec` is available under [the Apache 2.0 license](LICENSE.md).
+`Hyrax::Spec` is available under [the Apache 2.0 license](LICENSE).
 
 
