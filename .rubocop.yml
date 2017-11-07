@@ -7,3 +7,7 @@ Style/FileName:
     - '*.gemspec'
     - 'Gemfile*'
     - 'Guardfile*'
+Metrics/BlockLength:
+  Exclude:
+    - '*_spec.rb'
+    - 'lib/hyrax/spec/**/*'
