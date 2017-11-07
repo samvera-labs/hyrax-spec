@@ -6,9 +6,9 @@ require 'hyrax/spec/version'
 Gem::Specification.new do |spec|
   spec.authors       = ['Tom Johnson']
   spec.email         = ['tom@curationexperts.com']
-  spec.description   = 'Shared tests and smoke tests for the Hyrax Samvera engine.'
+  spec.description   = 'Shared tests, matchers, and smoke tests for the Hyrax Samvera engine.'
   spec.summary       = <<-EOF
-  These are some tests for Hyrax.
+  These are some tests and matchers for Hyrax.
 EOF
 
   spec.homepage      = 'http://github.com/curationexperts/hyrax-spec'
@@ -19,10 +19,10 @@ EOF
   spec.name          = 'hyrax-spec'
   spec.require_paths = ["lib"]
   spec.version       = Hyrax::Spec::VERSION
-  spec.license       = 'Apache2'
+  spec.license       = 'Apache-2.0'
 
-  spec.add_dependency 'rspec', '~> 3.1'
+  spec.add_dependency 'rspec', '~> 3.6'
 
-  spec.add_development_dependency 'bixby', '~> 0.2.1'
+  spec.add_development_dependency 'bixby', '~> 0.3'
   spec.add_development_dependency 'rake'
 end
