@@ -44,7 +44,7 @@ RSpec::Matchers.define :have_editable_property do |property, predicate|
 
     return msg + "\n\tNo property for `#{property}` was found." if @missing_property
 
-    msg += "\n\tThe configured predicate was #{actual_predicate.to_base}" unless
+    msg += "\n\tThe configured predicate was #{@actual_predicate.to_base}" unless
       @actual_predicate == predicate
     msg
   end
