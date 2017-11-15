@@ -142,7 +142,7 @@ RSpec.shared_examples 'a model with hyrax basic metadata' do |**opts|
   end
 
   it do
-    skip if
+    skip if except.include?(:source)
     is_expected.to have_editable_property(:source, RDF::Vocab::DC.source)
   end
 
