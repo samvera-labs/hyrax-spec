@@ -51,7 +51,7 @@ RSpec::Matchers.define :act do
   end
 
   chain :and_succeed do
-     @succeed = true
+    @succeed = true
   end
 
   chain :and_recover do
