@@ -14,7 +14,8 @@ RSpec::Matchers.define :have_form_field do |name|
                 when 'input'
                   @field.attributes['class'].value.include? 'multi_value'
                 when 'select'
-                  @field.attributes['multiple']
+                  @field.attributes['multiple'] ||
+                    @field.attributes['class'].value.include? 'multi_value'
                 end
 
     if label
