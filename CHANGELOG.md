@@ -1,8 +1,11 @@
-v0.3.1 -- 2018-01-29
+v0.3.2 -- 2018-01-30
 --------------------
 
   - Fix bug in `have_form_field` matcher to properly identify
     multi-valued select fields . 3876286
+
+v0.3.1 -- 2018-01-29 --- YANKED
+-------------------------------
 
 v0.3.0 -- 2017-11-24
 --------------------
