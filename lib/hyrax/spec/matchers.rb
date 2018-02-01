@@ -1,6 +1,6 @@
 require 'rspec/matchers' # @see http://rubygems.org/gems/rspec
 
-module Myrax
+module Hyrax
   module Spec
     ##
     # RSpec matchers for common Hyrax tests
