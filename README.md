@@ -3,6 +3,14 @@ Hyrax::Spec
 
 Shared examples and smoke tests for [Hyrax](https://github.com/samvera/hyrax) applications.
 
+## `RSpec` Matchers
+
+`Hyrax::Spec::Matchers` includes a variety of custom matchers for use with RSpec. These matchers can be included in
+your suite in batch  by adding `require 'hyrax/spec/matchers'` to your test helper (usually `spec/rails_helper.rb`),
+or individually requiring them (as in `require 'hyrax/spec/matchers/have_form_field'`).
+
+**Note**: documentation on matchers remains somewhat thin. The best current reference is their use in [`mahonia`](https://github.com/curationexperts/mahonia/), an ETD repository.
+
 ## `FactoryBot` Build Strategies for Hyrax
 
 If your test suite uses `FactoryBot` (formerly `FactoryGirl`) to create test objects, `Hyrax::Spec` provides useful
