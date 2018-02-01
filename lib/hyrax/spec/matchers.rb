@@ -8,6 +8,7 @@ module Myrax
       require 'hyrax/spec/matchers/act'
       require 'hyrax/spec/matchers/have_editable_property'
       require 'hyrax/spec/matchers/have_form_field'
+      require 'hyrax/spec/matchers/have_show_field'
       require 'hyrax/spec/matchers/list_index_fields'
     end
   end
