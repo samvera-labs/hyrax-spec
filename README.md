@@ -1,7 +1,10 @@
 Hyrax::Spec
 ===========
 
-Shared examples and smoke tests for [Hyrax](https://github.com/samvera/hyrax) applications.
+[![Yard Docs](http://img.shields.io/badge/yard-docs-blue.svg)](http://www.rubydoc.info/gems/hyrax-spec)
+
+Shared examples and smoke tests for [Hyrax](https://github.com/samvera/hyrax) applications. See the
+[documentation](http://www.rubydoc.info/gems/hyrax-spec) for more information.
 
 ## `FactoryBot` Build Strategies for Hyrax
 
