@@ -20,7 +20,13 @@ end
 desc 'Run specs'
 RSpec::Core::RakeTask.new(:spec)
 
+desc 'Start dummy appliication with engine_cart'
+task :setup_test_server do
+  require 'engine_cart'
+  EngineCart.load_application!
+end
+
 desc 'Check style and run specs'
-task ci: ['rubocop', 'spec']
+task ci: ['rubocop', 'engine_cart:generate', 'setup_test_server', 'spec']
 
 task default: :ci
