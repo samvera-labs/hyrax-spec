@@ -23,6 +23,8 @@ EOF
 
   spec.add_dependency 'rspec', '~> 3.6'
 
-  spec.add_development_dependency 'bixby', '~> 0.3'
+  spec.add_development_dependency 'bixby',       '~> 0.3'
+  spec.add_development_dependency 'engine_cart', '~> 1.0'
+  spec.add_development_dependency 'hyrax',       '>= 2.0'
   spec.add_development_dependency 'rake'
 end

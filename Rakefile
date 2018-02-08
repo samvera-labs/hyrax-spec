@@ -8,6 +8,7 @@ end
 
 require 'rspec/core/rake_task'
 require 'rubocop/rake_task'
+require 'engine_cart/rake_task'
 
 Bundler::GemHelper.install_tasks
 
